@@ -1,0 +1,49 @@
+{
+  "name": "geographic-react",
+  "scripts": {
+    "build": "webpack",
+    "start": "webpack-dev-server"
+  },
+  "dependencies": {
+    "classnames": "^2.2.5",
+    "d3-dsv": "^1.0.5",
+    "d3-geo": "^1.6.4",
+    "d3-interpolate": "^1.1.5",
+    "leaflet": "1.1.0",
+    "react": "^15.6.1",
+    "react-dom": "^15.6.1",
+    "react-leaflet": "^1.4.1",
+    "topojson": "^3.0.0",
+    "us-atlas": "^1.0.2"
+  },
+  "devDependencies": {
+    "@types/classnames": "^2.2.0",
+    "@types/d3-dsv": "^1.0.30",
+    "@types/d3-geo": "^1.6.3",
+    "@types/d3-interpolate": "^1.1.6",
+    "@types/geojson": "^1.0.2",
+    "@types/react": "^15.0.34",
+    "@types/react-dom": "^15.5.1",
+    "@types/react-leaflet": "^1.1.3",
+    "@types/topojson": "^3.0.2",
+    "awesome-typescript-loader": "^3.2.2",
+    "cson-loader": "^0.1.0",
+    "css-loader": "^0.28.4",
+    "extract-text-webpack-plugin": "^3.0.0",
+    "html-webpack-plugin": "^2.29.0",
+    "node-sass": "^4.5.3",
+    "raw-loader": "^0.5.1",
+    "sass-loader": "^6.0.6",
+    "source-map-loader": "^0.2.1",
+    "style-loader": "^0.18.2",
+    "title-case": "^2.1.1",
+    "tslint": "^5.4.3",
+    "tslint-language-service": "^0.9.6",
+    "tslint-loader": "^3.5.3",
+    "typescript": "^2.4.2",
+    "webpack": "^3.0.0",
+    "webpack-dev-server": "^2.5.0",
+    "yaml-loader": "^0.5.0"
+  },
+  "private": true
+}

@@ -1,0 +1,8 @@
+# Installed modules
+node_modules
+
+# Webpack build output
+dist
+
+# Editor silliness
+.vscode

@@ -1,0 +1,26 @@
+children-in-poverty:
+  name: Children in poverty
+  description: Percent of children age < 18 who are living below the federal poverty threshold.
+  source: American Community Survey (Census)
+  years: 2010-2014 (5-year estimate)
+  how-calculated: Children age < 18 living in households below the poverty threshold / Total number of households with children age < 18
+  range: [0%, 100%]
+  average: 21.9%
+
+jail-incarceration-rate:
+  name: Jail incarceration
+  description: Number of jail inmates per population.
+  source: Bureau of Justice Statistics, 2013-2014 Annual Summary on Inmates Under Jail Jurisdiction
+  years: 2013-2014
+  how-calculated: (Count of jail inmates / Total population) x 100,000
+  range: [0, 1000]
+  average: 326.0
+
+walkscore:
+  name: Walkability
+  description: Walkability is represented by an area's Walkscore. Walkscores are calculated based on the ease of walking to such destinations as grocery stores, parks, restaurants, and other retail.
+  source: Walkscore.com
+  years: 2016
+  how-calculated: Walkability is represented on a scale of 0 (worst) to 100 (best).
+  range: [0, 100]
+  average: no
